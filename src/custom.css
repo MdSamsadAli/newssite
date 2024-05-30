@@ -1,0 +1,34 @@
+.slick-prev,
+.slick-next {
+  top: 108%;
+  color: #808080;
+  font-size: 16px;
+}
+.slick-next {
+  left: 96%;
+  z-index: 1;
+}
+.slick-prev {
+  left: 100%;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: #585858;
+}
+
+@media (max-width: 768px) {
+  .w-fullscreen768 {
+    width: 100%;
+  }
+  .hamburger {
+    top: 65px;
+    padding: initial;
+    position: absolute;
+    right: 30px;
+  }
+  .trend.mx-10 {
+    margin: 0;
+  }
+}
